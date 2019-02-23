@@ -10,6 +10,12 @@
             var num = document.getElementById("n4");
             num.value = Math.pow(num.value, 2);
         }
+
+        function inv() {
+            var num = document.getElementById("n5");
+            num.value = 1/num.value;
+        }
+
     </script>
 </head>
 <body>
@@ -22,5 +28,12 @@ Number:
 Number:
 <input type="text" id="n4">
     <button onclick="two()"> x^2 </button>
+<p></p>
+
+Number:
+<input type="text" id="n5">
+<button onclick="inv()"> Inverso </button>
+<p></p>
+
 </body>
 </html>
